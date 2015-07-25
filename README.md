@@ -1,2 +1,2 @@
-# unplugdj-web
+# unplugdj-template
 UnplugDJ Publishing Template Respository
