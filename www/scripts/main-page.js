@@ -25,9 +25,9 @@ var mainPage = {
 
 			// mainPage.el.darkBg.className = mainPage.el.darkBg.className + " bg-open";
 
-			mainPage.el.signUpFrm.classList.add("hidden");
-			mainPage.el.signInFrm.classList.remove("hidden");
-			mainPage.el.signModal.classList.remove("hidden");
+			mainPage.el.signUpFrm.classList.add("hd");
+			mainPage.el.signInFrm.classList.remove("hd");
+			mainPage.el.signModal.classList.remove("hd");
 
 
 		};
@@ -40,9 +40,9 @@ var mainPage = {
 
 			this.classList.remove("bg-open");
 
-			mainPage.el.signUpFrm.classList.remove("hidden");
-			mainPage.el.signInFrm.classList.add("hidden");
-			mainPage.el.signModal.classList.remove("hidden");
+			mainPage.el.signUpFrm.classList.remove("hd");
+			mainPage.el.signInFrm.classList.add("hd");
+			mainPage.el.signModal.classList.remove("hd");
 
 
 		};
@@ -55,9 +55,9 @@ var mainPage = {
 			//classList, supported from IE10
 			mainPage.el.darkBg.classList.add("bg-open");
 
-			mainPage.el.signUpFrm.classList.add("hidden");
-			mainPage.el.signInFrm.classList.remove("hidden");
-			mainPage.el.signModal.classList.remove("hidden");
+			mainPage.el.signUpFrm.classList.add("hd");
+			mainPage.el.signInFrm.classList.remove("hd");
+			mainPage.el.signModal.classList.remove("hd");
 
 		};
 
@@ -71,7 +71,7 @@ var mainPage = {
 
 			this.classList.remove("bg-open");
 
-			mainPage.el.signModal.classList.add("hidden");
+			mainPage.el.signModal.classList.add("hd");
 
 
 		}

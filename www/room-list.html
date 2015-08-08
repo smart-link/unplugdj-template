@@ -58,39 +58,45 @@
           <a class="icon-Entryzone_icon red"></a>
         </div>
 
-        <div class="ml50 c-play p10" id="cPlay">
+        <div class="ml50 c-play p10 fl" id="cPlay">
           <i class="icon-Mic_icon fl"></i>
-          <div class="fl ml10">
+          <div class="fl ml10 c-name">
             <h3 class="">News Channel</h3>
             <p class="">Curated by BA Yenn We’ll be releasing a weekly playlist curated by one of our Brand Ambassadors. This week’s theme is rock. </p>
           </div>
         </div>
 
 
-        <div class="fr">
+        <div class="p10 ctrl">
+
+          <div class="fl src-follow">
+            <button class="btn b1 fl">Search</button>
+            <button class="btn b1 bg-trpt fl bl0">Follow</button>
+          </div>
+          <div class="fl  src-frm ml10">
+            <input type="text" placeholder="Search Room" />
+            <button class="icon-Search_icon"></button>
+          </div>
+
+          <div class="fl select-frm ml10 opnSlctGene">
+            <a id="">
+              <span class="icon-Others_icon gene-icon mr10"></span>
+              Sort Gene
+              <ul class="hd">
+                <li>Rock</li>
+                <li>Hiphop</li>
+                <li>Jazz</li>
+              </ul>
+            </a>
+            <button class="dropdown icon-Downarrow_icon"></button>
+          </div>
+
+
+          <button id="crtNwRmBtn" class="fl p10 ml10 c-new-room">Create New Room <i class="icon-Add_icon"></i></button>
           
-          <div class="fl">
-            <button>Search</button>
-            <button>Follow</button>
-          </div>
-          <div class="fl ml20">
-            <input type="text" />
-            <span class="icon-Search_icon"></span>
-          </div>
 
-          <div class="fl">
-            <span class="icon-Others_icon"></span>
-            Sort Gene
-            <span class="icon-Downarrow_icon"></span>
-          </div>
-
-
-          <button class="fl">Create New Room <i class="icon-Add_icon"></i></button>
-          
-
-          <div class="p-list fl">
-            <a class="icon-Playlist_icon red"></a>
-          </div>
+          <button class="p-list icon-Playlist_icon red">
+          </button>
         </div>
 
 
@@ -100,19 +106,66 @@
 
 
 
-    <main  class="">  
-  
+    <main class="">  
 
-                           
+      <div class="card-wrap">
+        <div class="card fl">
+        
+          <div class="header p10">          
+            <div class="fl profile"></div>
+            <div class="fl ml10">
+              <h3 class="">Let’s Music!!!!!</h3>
+              <p class="">Host Creater : <span>Subalter</span></p>
+            </div>
+            <button class="icon-Add_icon add"></button>
+          </div>
 
+          <div class="thumb p10">
+            <div class="stat">
+              <i class="icon-Members_icon"></i> <span class="mr20">153</span>
+              <i class="icon-Joinlist_icon"></i> 70
+            </div>
+          </div>
+
+          <div class="playing p10">
+            <div class="fl gene">
+              <i class="icon-Classic_icon icon"></i>
+            </div>
+            <div class="content">
+              <h3 class="">Bruno Mars performs 'Treasure' | BRIT A...</h3>
+              <p class="">Current DJ : <span>Subalter</span> </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
     </main>
 
 
     <footer class="">
 
-
     </footer>
+
+
+    <div id="darkBg" class="dark-bg">
+    </div>
+
+    <div id="createRoomModal" class="room-modal hd">
+      <div class="p20 alcenter">
+        <h3>Create New Room</h3>
+        <input type="text" class="fw p10 mt20" placeholder="Enter Room Name" />  
+        
+
+        <div>
+          <button class="bg-dark tuc">Cancel</button>
+          <button class="bg-red tuc">Create</button>
+        </div>
+
+      </div>  
+      
+    </div>
+
 
 
 

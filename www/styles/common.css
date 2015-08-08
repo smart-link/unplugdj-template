@@ -2,9 +2,9 @@
 @import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
 
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* 
+	common CSS 
+	created by Parkmap
 */
 
 html, body, div, span, applet, object, iframe,
@@ -33,11 +33,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+body, input, textarea, keygen, select, button {
 	font-family: 'Noto Sans Korean', sans-serif;
 	font-weight: 100;
 	letter-spacing: -1px;
+}
+body{
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -54,19 +56,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 img {
 	max-width: 100%;
 }
-
 hr{
 	border:0;
 	border-top: 1px solid #eee;
 }
 input,button{
-	border: 0;s
+	background: #f8f8f8;
+	border: 0;
 	apearance: none;
 	-webkit-appearance: none;
+}
+button{
+	cursor: pointer;
+}
+textarea:focus, input:focus, button:focus{
+    outline: 0;
 }
 input{
 	border:1px solid #eee;
@@ -84,45 +91,36 @@ input[type=checkbox]:checked{
 	background: url('../assets/images/icons/tick-sign.png') 0 0 no-repeat;
 }
 
-
-.hidden{
+.hidden,.hd{
 	display: none;
 }
-
 .alcenter {
 	text-align: center;
 }
-
 .p20{
 	padding: 20px;
 }
 .p10{
 	padding: 10px;
 }
-
+.m10{
+	margin: 10px;
+}
 .m20{
 	margin: 20px;
 }
-
 .mv20{
 	margin: 0 20px;
 }
-
-
 .mt20{
 	margin-top: 20px;
 }
-
 .mt10{
 	margin-top: 10px;
 }
-
-
 .mt5{
 	margin-top: 5px;
 }
-
-
 .mb10{
 	margin-bottom: 10px;
 }
@@ -130,16 +128,32 @@ input[type=checkbox]:checked{
 	margin-left: 10px;
 }
 
+.mr10{
+	margin-right: 10px;	
+}
+.mr20{
+	margin-right: 20px;	
+}
 .ml50{
 	margin-left: 50px;
 }
 .ml60{
 	margin-left: 60px;
 }
+.btn{
+	color: #bdbdbd;
+}
+.b1{
+	border: 1px solid #eee;
+}
+
+.bl0 {
+	border-left: 0;
+}
+
 .tuc{
 	text-transform: uppercase;
 }
-
 .fw{
 	width:100%;
 }
@@ -155,9 +169,9 @@ input[type=checkbox]:checked{
 .ib{
 	display: inline-block;
 }
-
 .red{
 	color: #ff4343;
 }
-
-
+.bg-trpt{
+	background: transparent;
+}
