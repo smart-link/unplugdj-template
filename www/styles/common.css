@@ -172,6 +172,14 @@ input[type=checkbox]:checked{
 .red{
 	color: #ff4343;
 }
+.bg-darkGrey{
+	background: #616161;
+	color: #fff;
+}
+.bg-red{
+	background: #ff4343;
+	color: #fff;
+}
 .bg-trpt{
 	background: transparent;
 }
